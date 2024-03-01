@@ -1,0 +1,57 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width : 100%;
+/* background-color : black; */
+font-family: Gilroy;
+}
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+#box1{
+    height: 100%;
+    width: 100%;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(165, 165, 165);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(114, 114, 114);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#squar{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(0, 8, 255);
+}
+
+#box4{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(66, 66, 66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
