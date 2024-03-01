@@ -1,0 +1,101 @@
+@font-face {
+    font-family: head;
+    src: url(font/Satoshi-Variable.ttf);
+}
+@font-face {
+    font-family: loder;
+    src: url(font/Tanker-Regular.ttf);
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width : 100%;
+font-family: "gilroy";
+}
+
+.loder{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(190, 190, 190);
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loder h1{
+    font-family: gilroy;
+    font-weight: 100%;
+}
+.loder h1 span{
+    font-family:loder;
+    padding: 15px 15px;
+    border: 1px solid black;
+    border-radius: 50px;
+    color:white;
+    background-color: black;
+}
+
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-color : rgb(0, 0, 0);
+}
+
+.page1 .nav{
+    height: 10%;
+    width: 100vw;
+    padding: 20px 40px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav #right a{
+    font-size: 1.5vw;
+    color: white;
+    font-weight: 1000;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav #right a:nth-child(2){
+    padding-left: 20px;
+}
+.nav #right a:nth-child(3){
+    padding-left: 60px;
+}
+
+.page1 .intro h1{
+    padding: 0px 20px;
+    color: white;
+    font-family: head;
+    font-size: 40vw;
+    text-transform: uppercase;
+    white-space: nowrap;
+    /* font-stretch: 100%; */
+    font-weight: 999;
+}
+.page1 .intro h1 #mota{
+    padding: 0px 20px;
+    color: white;
+    font-family: head;
+    font-size: 40vw;
+    text-transform: uppercase;
+    white-space: nowrap;
+    /* font-stretch: 100%; */
+    /* font-weight: ; */
+}
+
+
+.page2{
+    height: 100vh;
+    width: 100%;
+    background-color : rgb(0, 0, 0);
+}
