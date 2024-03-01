@@ -3,7 +3,7 @@ Animation using gsap library.
 
 
 
-#to use locomotie + scrollTrigger
+# to use locomotie + scrollTrigger
 
 stap 1:go to the https://codepen.io/ShehzadAsif/pen/dypyRoQ and copy js file
 
